@@ -22,3 +22,7 @@ Note - there will be no punctuation or digits in the input string, only letters.
 
 
 // Solution
+
+function validSpacing(s) {
+  return s.trim() == s && !s.includes("  ");
+}
