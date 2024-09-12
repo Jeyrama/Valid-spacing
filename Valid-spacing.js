@@ -19,3 +19,6 @@ Even though there are no spaces, it is still valid because none are needed:
 
 Note - there will be no punctuation or digits in the input string, only letters.
 */
+
+
+// Solution
