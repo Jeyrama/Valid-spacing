@@ -28,3 +28,10 @@ function validSpacing(s) {
 }
 
 // or
+
+function validSpacing(s) {
+  if(s === " ") return false;
+  else if(s[0] === " " || s[s.length - 1] === " ") return false;
+  else if(s.includes("  ")) return false;
+  else return true;
+}
